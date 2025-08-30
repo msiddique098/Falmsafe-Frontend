@@ -9,6 +9,7 @@ import MentalHealthStats from './MentalHealthStats';
 import GuidePrinciples from './GuidePrinciples';
 import RealStories from './RealStories';
 import WellnessHero from './WellnessHero';
+import mainImage from '../assets/main.svg';
 import Chatbox from '/src/components/Chatbox.jsx'; 
 import Footer from './Footer';
 
@@ -17,11 +18,9 @@ const Hero = () => {
     <div className="font-sans">
      
       <div className="relative w-full h-screen overflow-hidden">
-        <img
-          src="../assets/main.jpg"
-          alt="Hero"
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
+        
+        <img src={mainImage} alt="Hero" className="absolute inset-0 w-full h-full object-cover z-0" />
+
 
         
         <div className="absolute top-0 left-0 w-full z-30">

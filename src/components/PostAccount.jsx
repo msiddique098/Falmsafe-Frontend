@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { FaHeart, FaComment, FaRetweet, FaEllipsisH } from "react-icons/fa";
 import headerBg from "/src/assets/97.png";
-import profilePhoto from "/src/assets/prof.png"; 
+import profilePhoto from "../assets/41.jpg"; 
 import coverPhoto from "/src/assets/coverphoto.jpg";     
 import { useNavigate } from "react-router-dom";
 
